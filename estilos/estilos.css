@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+  min-width: 768px;
+}
+
+header{
+  display: flex;
+  background: #92A270;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 210px;
+  height: 210px;
+  margin-left: 70px;
+  padding: 10px;
+}
+
+.CajaTxt{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.TextoHeader{
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center; 
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.subtitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer{
+height: auto;
+background: #D7BCA3;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+width: 100%;
+}
+
+nav ul li{
+background-color: #929998;
+width: 360px;
+height: 40px;
+margin: 20px;
+display: flex;
+border-radius: 7px;
+justify-content: space-around;
+padding: 9px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main{
+border-radius: 30px;
+background-color: #D9D9D9;
+margin: 120px;
+display: flex;
+padding: 10px;
+align-items: center;
+flex-wrap: wrap;
+min-width: 475px;
+}
+
